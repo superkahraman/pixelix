@@ -1,0 +1,28 @@
+/* pixelix.net Landing Page CSS*/
+
+html {
+    height: 100%;
+}
+.screen {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: rgb(252,255,212);
+    background: radial-gradient(circle, rgba(252,255,212,1) 0%, rgba(207,220,215,1) 30%, rgba(160,184,218,1) 100%);
+}
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+.logo {
+    width: 20%;
+    height: 20%;
+}
+.text{
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 4em;
+    color: #8E5A00;
+    margin: 0;
+}
